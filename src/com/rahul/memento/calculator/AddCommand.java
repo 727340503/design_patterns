@@ -1,24 +1,15 @@
 package com.rahul.memento.calculator;
 
-public class AddCommand implements Command{
-	
-	private OperationApi api;
+public class AddCommand extends AbstractCommand{
 	
 	private int num;
 	
-	public AddCommand(OperationApi api,int num) {
-		this.api = api;
+	public AddCommand(int num) {
 		this.num = num;
 	}
-
+	
 	@Override
 	public void execute() {
 		api.add(num);
 	}
-
-	@Override
-	public void undo() {
-		api.substract(num);
-	}
-	
 }

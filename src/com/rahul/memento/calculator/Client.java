@@ -3,11 +3,12 @@ package com.rahul.memento.calculator;
 public class Client {
 	public static void main(String[] args) {
 		OperationApi api = new Operation();
-		api.setResult(100);
-		Command addComm = new AddCommand(api, 3);
-		Command subComm = new SubstractCommand(api, 5);
+		Command addComm = new AddCommand(3);
+		addComm.setOperation(api);
+		Command subComm = new SubstractCommand(5);
+		subComm.setOperation(api);
 		
-		Calculator1 c = new Calculator1();
+		Calculator c = new Calculator();
 		c.setAddComm(addComm);
 		c.setSubComm(subComm);
 		
