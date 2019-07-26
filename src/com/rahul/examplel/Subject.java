@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 观察者模式
  * 目标对象，他知道观察他的观察者，并提供公共的注册和剔除观察者的接口，以及通知接口
 * @ClassName: Subject
 * @Description: TODO(这里用一句话描述这个类的作用)

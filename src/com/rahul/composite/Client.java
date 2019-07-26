@@ -1,5 +1,10 @@
 package com.rahul.composite;
 
+/**
+ * 组合模式
+ * @author RahulRui
+ *
+ */
 public class Client {
 	public static void main(String[] args) {
 		//定义多个composite对象

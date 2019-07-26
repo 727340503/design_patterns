@@ -1,5 +1,10 @@
 package com.rahul.command;
 
+/**
+ * ÃüÁîÄ£Ê½
+ * @author RahulRui
+ *
+ */
 public class Client {
 	public void assemble() {
 		Receiver receiver = new Receiver();
