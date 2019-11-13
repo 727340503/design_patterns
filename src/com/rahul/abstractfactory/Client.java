@@ -1,5 +1,10 @@
 package com.rahul.abstractfactory;
 
+/**
+ * chou xiang gong chang抽象工厂模式
+ * @author RahulRui
+ *
+ */
 public class Client {
 	
 	public static void main(String[] args) {

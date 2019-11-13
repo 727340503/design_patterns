@@ -1,7 +1,7 @@
 package com.rahul.mediator;
 
 /**
- * 终结者模式
+ * zhong jie zhe 中介者模式
  * @author RahulRui
  *
  */

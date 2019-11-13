@@ -1,5 +1,10 @@
 package com.rahul.iterator;
 
+/**
+ * die dai qi µü´úÆ÷Ä£Ê½
+ * @author RahulRui
+ *
+ */
 public class Client {
 	public static void main(String[] args) {
 		String[] ss = new String[] {"1","3","4","7","9","15"};
